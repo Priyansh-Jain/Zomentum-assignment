@@ -3,6 +3,7 @@
 ## Table of Contents
 
  - [Technologies Used](#technologies-used)
+ - [How To Run](#how-to-run)
  - [An endpoint to book a ticket using a user’s name, phone number, and timings](#An-endpoint-to-book-a-ticket-using-a-user’s-name,-phone-number,-and-timings)
  - [An endpoint to view all the tickets for a particular time(StartTime and EndTime)](#An-endpoint-to-view-all-the-tickets-for-a-particular-time(StartTime-and-EndTime))
  - [An endpoint to view the user’s details based on the ticket id](#An-endpoint-to-view-the-user’s-details-based-on-the-ticket-id)
@@ -28,6 +29,18 @@
 ### `Ticket is automatically expired after 8 hours of StartTime of ticket using TTL index in mongodb.`
 
 
+## `How To Run`
+
+#### `1. Clone this repository`
+
+#### `2. Run npm install in terminal`
+
+#### `3. Server will Start at http://localhost:4000/`
+
+#### `4. For tickets go to http://localhost:4000/ticket`
+
+#### `5. For slots go to http://localhost:4000/slots`
+__________________________
 
 ## `An endpoint to book a ticket using a user’s name, phone number, and timings.`
 
